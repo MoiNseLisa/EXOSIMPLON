@@ -1,0 +1,28 @@
+.flex{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: crimson;
+}
+#champs{
+  width: 90%;
+  height: 100px;
+  padding-top: 5px;
+}
+.indication{
+  width: 250px;
+  height: auto;
+  text-align: center;
+
+}
+button{
+  width: 30%;
+  height: 30px;
+  color: grey;
+  background-color: white;
+  border: 1px solid #CCC;
+}
+.textInput:focus{
+  outline: none;
+}
